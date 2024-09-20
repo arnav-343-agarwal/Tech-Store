@@ -15,7 +15,7 @@ db.once('open', () => {
   console.log('Database connected');
 });
 
-app.listen(5000,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("SERVER STARTED AT LOCALHOST 5000")
 })
 
